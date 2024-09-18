@@ -5,13 +5,13 @@ export const TercerComponente = ({nombre,apellido,ficha}) => {
 
     
 
-    const libros = ["Harry potter",
-        "Hielo y fuego",
-        "El señor de los anillos"];
+    const libros = ["La mecanica del corazón",
+        "Trans-tornos",
+        "Negligencia???"];
 
     return (
         <div>
-         <h2>Mis libros fovoritos</h2>
+         <h2>Mis libros favs</h2>
 
          <ul>
             <li>{libros[0]}</li>
@@ -35,7 +35,7 @@ export const TercerComponente = ({nombre,apellido,ficha}) => {
            <ul>
             <li><strong>Nombre: </strong>{nombre}</li>
             <li><strong>Apellido: </strong>{apellido}</li>
-            <li><strong>Alergias: </strong>{ficha.alergias}</li>
+            <li><strong>Alergias: </strong>{ficha.alergias}</li>   /*a los chacales*/
             <li><strong>Grupo sanguineo: </strong>{ficha.grupoSangre}</li>
             <li><strong>Estado de salud: </strong>{ficha.estadoSalud}</li>
             <li><strong>Altura: </strong>{ficha.altura}</li>
