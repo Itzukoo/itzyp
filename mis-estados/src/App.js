@@ -11,10 +11,10 @@ class App extends Component {
 
     /**DEclaracion de objeto */
     const ficha_medica = {
-      altura: "187cm",
-      grupoSangre: "B+",
-      estadoSalud: "bueno",
-      alergias: "ninguno"
+      altura: "160cm",
+      grupoSangre: "B-",
+      estadoSalud: "Existiendooo",
+      alergias: "Chacales"
     };
 
 
@@ -29,8 +29,8 @@ class App extends Component {
         <hr />
 
         <TercerComponente
-          nombre="Juanita"
-          apellido="Juarez"
+          nombre="Lucia"
+          apellido="Mondragon"
           ficha= {ficha_medica} />
       </div>
     );
