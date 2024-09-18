@@ -2,15 +2,15 @@ import React from 'react'
 
 export const SegundoComponente = () => {
 
-    let nombre = 'Manuel';
-    let web = 'http://manuel-hernandez.com';
+    let nombre = 'Itzy';
+    let web = 'http://itzy-ross.com';
 
     ///Declaracion de objetos
     let usuario = {
-        nombre: "Lupita",
-        apellido: "Lopez",
-        edad: 30,
-        ciudad: "Libres"
+        nombre: "Romi",
+        apellido: "Hernan",
+        edad: 16,
+        ciudad: "Puebla"
     };
 
     ///imprimiendo en consola
